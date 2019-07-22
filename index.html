@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <a href="#" id='logo' class="nav logo"></a>
+            <div class="nav-box">
+                <a href="#" class="nav">Главная</a>
+                <a href="#" class="nav nav-about-us">О нас</a>
+                <a href="#" class="nav nav-faq">Оставить вопрос</a>
+                <a href="#" class="nav">Контакты</a>
+            </div>
+            <div class="burger">
+                <div></div>
+            </div>
+        </div>
+        <div class="main-picture photo1">
+            <div class="main-picture-content">
+                <h1>Только красивые путешествия</h1>
+                <div class="button">Присоединйся</div>
+            </div>
+            <div class="main-picture-social-buttons">Социальные кнопки</div>
+            <div class="main-picture-scroll-box">
+                <div class="main-picture-scroll-box-content"></div>
+            </div>
+        </div>
+        <h2 class="main-title">Путешествуй красиво, блог о фотографиях</h2>
+        <div class="article">
+            <p>Представьте себе все лучшее, что есть в России: широкие просторы, разнообразная природа, щедрая душа, девушки особой красоты, 
+                баня в конце концов. Добавьте к этому все то, чем так привлекательна Москва: гастрономические рестораны, безудержные вечеринки, 
+                звезды ТВ и инстаграмма вокруг. Взболтайте, но не смешивайте и получите Розу Хутор 2017 – правильный баланс здорового лайфстайла 
+                и роскоши.</p>
+            <p>Красная поляна также радует своей доступностью: перелет занимает 2,5 часа, иметь визу необходимости нет, 
+                заказать такси можно через привычное приложение за 1400 руб., а время в пути от аэропорта до отеля составляет менее часа!
+                Ну, где еще такое есть? При этом местная инфраструктура не просто ничуть не уступает Альпам, но и даже предвосхищает ожидания: здесь вкуснее, уютнее и веселее. Я уже не говорю об удивительном контрасте температур – наверху зима, а внизу лето!</p>
+            <p>Более того, несмотря на весну за окном, успеть все это оценить лично совсем не поздно – рекордное количество снега 
+                обещает продлить сезон на весь апрель, а курорт тем временем предлагает на этот период очень привлекательные цены!</p>
+            <p>В общем, какое бы время вы ни выбрали, Роза Хутор удивит и подарит желание говорить о России с восторгом!</p>
+        </div>
+        <div class="cards-block">
+            <div class="cards-block-item">
+                <div class="cards-block-item-pic pic-moscow"></div>
+                <h3>Путешествия по России</h3>
+                <div class="cards-block-item-line"></div>
+                <p>Самые интересные путешествия</p>
+            </div>
+            <div class="cards-block-item">
+                <div class="cards-block-item-pic pic-africa"></div>
+                <h3>Путешествия по Египту</h3>
+                <div class="cards-block-item-line"></div>
+                <p>Самые исторические путешествия</p>
+            </div>
+            <div class="cards-block-item">
+                <div class="cards-block-item-pic pic-kangaroo"></div>
+                <h3>Путешествия по Австралии</h3>
+                <div class="cards-block-item-line"></div>
+                <p>Самые веселые путешествия</p>
+            </div>
+            <div class="cards-block-item">
+                <div class="cards-block-item-pic pic-north-america"></div>
+                <h3>Путешествия по Северной Америке</h3>
+                <div class="cards-block-item-line"></div>
+                <p>Самые захватывающие путешествия</p>
+            </div>
+            <div class="cards-block-item">
+                <div class="cards-block-item-pic pic-south-america"></div>
+                <h3>Путешествия по Южной Америке</h3>
+                <div class="cards-block-item-line"></div>
+                <p>Самые увлекательные путешествия</p>
+            </div>
+            <div class="cards-block-item">
+                <div class="cards-block-item-pic pic-big-ben"></div>
+                <h3>Путешествия по Англии</h3>
+                <div class="cards-block-item-line"></div>
+                <p>Самые стильные путешествия</p>
+            </div>
+        </div> 
+        <div class="form-request">
+            <div class="form-request-button-box">
+                <div class="form-request-button-box-content">
+                    <h2>Отправьте нам вопрос</h2>
+                    <div class="button">Отправить вопрос</div>
+                </div>   
+            </div>
+            <div class="form-request-popup">
+                <div class="form-request-popup-content">
+                    <div class="form-request-popup-close"></div>
+                    <h3>Напишите нам:</h3>
+                    <form method="GET" action="form.php">
+                        <input type="text" name='fio' placeholder="ФИО">
+                        <input type="email" name='email' placeholder='Email'>
+                        <input type="tel" name="phone" placeholder="Ваш телефон">
+                        <textarea name="comment" placeholder="Ваш комментарий">.</textarea>
+                        <button type="submit">Отправить</button>
+                        <div class="error-message"></div>
+                    </form>
+                </div>
+            </div>
+        </div> 
+        <div class="questions">
+            <h2>Вопросы и ответы</h2>
+            <div class="questions-box">
+                <div class="questions-box-item">
+                    <div class="questions-box-item-q">У вас есть скидки?</div>
+                    <div class="questions-box-item-a"><p>Нет</p></div>
+                </div>
+                <div class="questions-box-item">
+                    <div class="questions-box-item-q">У вас есть скидки?</div>
+                    <div class="questions-box-item-a"><p>Нет</p></div>
+                </div>
+                <div class="questions-box-item">
+                    <div class="questions-box-item-q">У вас есть скидки?</div>
+                    <div class="questions-box-item-a"><p>Нет</p></div>
+                </div>
+            </div>
+        </div>
+        <div class="my-button">Кнопка созданная на Mixin</div>
+    </div>
+    <div class="arrow-up"></div>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
